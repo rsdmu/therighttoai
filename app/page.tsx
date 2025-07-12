@@ -26,7 +26,7 @@ export default function Home() {
           href="/declaration.pdf"
           className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
         >
-          Download Declaration PDF
+          Paper
         </a>
       
         <div className="mt-6 grid grid-cols-2 md:grid-cols-3 gap-y-1 text-xs text-gray-400">
