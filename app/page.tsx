@@ -32,13 +32,13 @@ export default function Home() {
             href="https://icml.cc/virtual/2025/poster/40155"
             className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
           >
-            5MINTalk
+            Short Talk
           </a>
           <a
             href="/book"
             className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
           >
-            Book
+            Book - Coming Soon
           </a>
         </div>
       

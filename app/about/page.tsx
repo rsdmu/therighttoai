@@ -10,7 +10,6 @@ export default function AboutPage() {
       <p>
         Since 2022, the Right to AI has grown from a three-year multidisciplinary collaboration among researchers, urban planners, community organizers, and technologists, working with more than 30 community organizations across Montréal. Now established as a non-profit organization, we explore how people can meaningfully participate in the design, deployment, and governance of AI infrastructures that increasingly influence public space, finance, healthcare, and daily life. This declaration is a starting point for workshops, academic papers, and policy conversations that invite others to shape techno-diverse futures based on pluralism, transparency, and shared stewardship of data and algorithms.
       </p>
-
       <h3 className="mt-10 font-semibold">What We Do</h3>
       <h4 className="mt-6 font-semibold">Workshops</h4>
       <p>
