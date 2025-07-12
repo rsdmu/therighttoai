@@ -37,7 +37,7 @@ export default function Hero() {
         whileHover={{ scale: 1.05 }}
         className="mt-10 rounded-full border border-foreground px-8 py-3 font-medium uppercase tracking-wide text-accent transition"
       >
-        Sign the Declaration
+        Get involved
       </motion.a>
     </section>
   );
