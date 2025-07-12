@@ -19,15 +19,28 @@ export default function Home() {
 
       <Section id="declaration" title="Declaration of the Right to AI">
         <p>
-          We distilled the manifesto into a concise declaration that any person or organization can endorse. By signing,
-          you affirm that everyone—not just tech giants—has a stake in shaping AI that impacts daily life.
+          AI shapes daily life—healthcare, finance, education, urban spaces—and everyone should have a real voice in how these systems are built, used, and governed. The Right to AI affirms that decisions about AI cannot be left to a small group of experts or corporations. People and communities must help define priorities, share in the oversight of data and technology, and ensure that AI reflects democratic values, social justice, and collective benefit. This declaration is open for any person or organization to endorse. By signing, you affirm that everyone—not only tech giants—has a stake in shaping AI that impacts daily life. Please click on "Get involved" to add your voice.
         </p>
-        <a
-          href="/declaration.pdf"
-          className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
-        >
-          Paper
-        </a>
+        <div className="mt-6 flex flex-wrap gap-4">
+          <a
+            href="/2501.17899v2.pdf"
+            className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
+          >
+            Paper
+          </a>
+          <a
+            href="https://icml.cc/virtual/2025/poster/40155"
+            className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
+          >
+            5MINTalk
+          </a>
+          <a
+            href="/book"
+            className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
+          >
+            Book
+          </a>
+        </div>
       
         <div className="mt-6 grid grid-cols-2 md:grid-cols-3 gap-y-1 text-xs text-gray-400">
           <span>Rashid Mushkani</span>
