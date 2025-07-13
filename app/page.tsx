@@ -19,7 +19,7 @@ export default function Home() {
           person or organization to endorse. By signing, you affirm that
           everyone—not only tech giants—has a stake in shaping AI that impacts
           daily life. Please click on {' '}
-          <GetInvolvedButton className="text-accent font-medium" />{' '}
+          <GetInvolvedButton className="text-accent font-medium"/>
           &nbsp;to add your voice.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
