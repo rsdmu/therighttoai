@@ -14,7 +14,7 @@ export default function BookPage() {
           alt="Right to AI book cover"
           width={400}
           height={600}
-          className="mb-6 h-auto w-auto"
+          className="mb-6 h-auto w-auto border border-gray-200"
         />
         <p className="text-lg">Coming soon</p>
       </div>
