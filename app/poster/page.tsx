@@ -7,14 +7,14 @@ export const metadata = {
 
 export default function PosterPage() {
   return (
-    <Section id="poster" title="Poster">
+    <Section id="poster" title="Poster" fullWidth>
       <div className="flex justify-center">
         <Image
           src="/poster.png"
           alt="Right to AI explanatory poster"
-          width={800}
-          height={1200}
-          className="h-auto w-full max-w-3xl border border-gray-200"
+          width={1200}
+          height={1800}
+          className="h-auto w-full border border-gray-200"
         />
       </div>
     </Section>
