@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-
       <section id="poster" className="w-screen overflow-hidden">
         <img
           src="/poster.png"
