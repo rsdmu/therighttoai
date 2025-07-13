@@ -47,7 +47,7 @@ export default function AboutPage() {
       <ul className="mt-4 list-disc pl-6 space-y-2">
         <li>Become a volunteer and share the Right to AI within your community or field of work</li>
         <li>Join ongoing research projects on public participation in AI</li>
-        <li>Make a donation – coming soon</li>
+        <li>Get in touch to collaborate on a research project</li>
       </ul>
       <p className="mt-6 text-accent">contact@therighttoai.org</p>
     </Section>

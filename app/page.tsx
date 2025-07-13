@@ -15,9 +15,6 @@ export default function Home() {
           className="w-full h-auto"
         />
       </section>
-    
-
-
       <Section id="declaration" title="Declaration of the Right to AI">
         <p>
           AI shapes daily life—healthcare, finance, education, urban spaces—and
@@ -29,9 +26,9 @@ export default function Home() {
           justice, and collective benefit. This declaration is open for any
           person or organization to endorse. By signing, you affirm that
           everyone—not only tech giants—has a stake in shaping AI that impacts
-          daily life. Please click on
-          <GetInvolvedButton className="text-accent font-medium" />
-          &nbsp;to add your voice.
+          daily life. Please click on {' '}
+          <GetInvolvedButton className="text-accent font-medium" />{' '}
+          &nbsp; to add your voice.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <a
@@ -54,7 +51,7 @@ export default function Home() {
           </a>
         </div>
 
-        <p className="mt-12 text-xs font-semibold text-gray-400">
+        <p className="mt-12 text-xl font-semibold text-gray-400">
           Names for the Right to AI
         </p>
         <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-y-1 text-xs text-gray-400">
