@@ -1,14 +1,16 @@
-# The Right to AI
+# The Right to AI Page
 
-**The Right to AI** is a Next.js web application that promotes community participation in the design, deployment and governance of artificial intelligence. It contains interactive content about the Right to AI declaration and provides resources such as papers and workshop material.
+**The Right to AI Page** is a Next.js web application that supports public understanding and participation in the governance of artificial intelligence. It is part of a broader non-profit initiative that began as a multi-year collaboration with over 30 community organizations across Montréal.
+
+This site hosts interactive content, public-facing explanations of AI infrastructure, and resources for workshops, research, and community engagement. It is designed to help people explore both the promises and risks of AI, and to co-develop tools for more democratic oversight of data and algorithmic systems.
 
 ## Features
 
-- **Next.js 14** with React 18 and TypeScript
-- **Tailwind CSS** for rapid UI styling
-- **Framer Motion** animations
-- Sample pages including an About section, poster viewer and book preview
-- Example contact form logic using Nodemailer
+- A declaration that invites individuals and organizations to co-sign the Right to AI  
+- Educational content on how AI affects public space, finance, health, and daily life  
+- Materials for community workshops and participatory research  
+- Opportunities to volunteer, contribute, or stay informed through a mailing list  
+
 
 ## Getting Started
 
