@@ -5,7 +5,8 @@ import { usePathname } from 'next/navigation';
 
 export function Header() {
   const pathname = usePathname();
-  const nav = pathname === '/about'
+  const showHome = pathname === '/about' || pathname.startsWith('/book') || pathname.startsWith('/poster');
+  const nav = showHome
     ? { href: '/', label: 'Home' }
     : { href: '/about', label: 'About' };
 
