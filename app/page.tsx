@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-
       <Section id="declaration" title="Declaration of the Right to AI">
         <p>
           AI shapes daily life—healthcare, finance, education, urban spaces—and
