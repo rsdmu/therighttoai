@@ -1,8 +1,10 @@
 
 "use client";
 import { motion } from "framer-motion";
+import { useEndorseModal } from "./EndorseModalContext";
 
 export default function Hero() {
+  const { show } = useEndorseModal();
   return (
     <section className="flex min-h-screen flex-col items-start justify-center px-4 md:px-24">
       <motion.span
@@ -32,13 +34,14 @@ export default function Hero() {
       >
         Not just AI for the people—AI by the people.
       </motion.p>
-      <motion.a
-        href="#endorse"
+      <motion.button
+        type="button"
+        onClick={show}
         whileHover={{ scale: 1.05 }}
         className="mt-10 rounded-full border border-foreground px-8 py-3 font-medium uppercase tracking-wide text-accent transition"
       >
         Get involved
-      </motion.a>
+      </motion.button>
     </section>
   );
 }

@@ -1,11 +1,38 @@
 "use client";
+import { useState } from "react";
 
 export default function EndorseForm() {
+  const [submitted, setSubmitted] = useState(false);
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const data = {
+      name: formData.get("Name"),
+      email: formData.get("Email"),
+      joinMailingList: formData.get("Join mailing list"),
+      volunteer: formData.get("Volunteer"),
+      comments: formData.get("Comments"),
+    };
+    await fetch("/api/endorse", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    setSubmitted(true);
+  }
+
+  if (submitted) {
+    return (
+      <p className="mx-auto mt-8 max-w-md text-center text-sm">
+        Thank you for your endorsement!
+      </p>
+    );
+  }
+
   return (
     <form
-      action="mailto:contact@therighttoai.org?subject=Right%20to%20AI%20Support"
-      method="POST"
-      encType="text/plain"
+      onSubmit={handleSubmit}
       className="mx-auto mt-8 max-w-md space-y-4 text-sm"
     >
       <div>
