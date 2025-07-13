@@ -20,7 +20,7 @@ export default function Home() {
           everyone—not only tech giants—has a stake in shaping AI that impacts
           daily life. Please click on {' '}
           <GetInvolvedButton className="text-accent font-medium" />{' '}
-          &nbsp; to add your voice.
+          &nbsp;to add your voice.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <a
