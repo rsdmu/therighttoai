@@ -8,13 +8,6 @@ export default function Home() {
     <>
       <Hero />
 
-      <section id="poster" className="w-screen overflow-hidden">
-        <img
-          src="/poster.png"
-          alt="Right to AI – explanatory poster"
-          className="w-full h-auto"
-        />
-      </section>
       <Section id="declaration" title="Declaration of the Right to AI">
         <p>
           AI shapes daily life—healthcare, finance, education, urban spaces—and
@@ -38,6 +31,12 @@ export default function Home() {
             Paper
           </a>
           <a
+            href="/poster"
+            className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
+          >
+            Poster
+          </a>
+          <a
             href="https://icml.cc/virtual/2025/poster/40155"
             className="inline-block rounded border border-foreground px-6 py-2 text-foreground"
           >
@@ -51,7 +50,7 @@ export default function Home() {
           </a>
         </div>
 
-        <p className="mt-12 text-xl font-semibold text-gray-400">
+        <p className="mt-20 text-xl font-semibold text-gray-400">
           Names for the Right to AI
         </p>
         <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-y-1 text-xs text-gray-400">
