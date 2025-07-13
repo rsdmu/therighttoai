@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Section id="declaration" title="Declaration of the Right to AI">
-        <p>
+        <p className="text-lg">
           AI shapes daily life—healthcare, finance, education, urban spaces—and
           everyone should have a real voice in how these systems are built, used,
           and governed. The Right to AI affirms that decisions about AI cannot be
