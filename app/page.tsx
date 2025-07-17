@@ -67,6 +67,7 @@ export default function Home() {
           <span>Daniel Smith</span>
           <span>Amira Hassan</span>
           <span>Gabriel Martins</span>
+          <span>Rahul Sharma</span>
         </div>
 
       </Section>
