@@ -9,7 +9,8 @@ This site hosts interactive content, public-facing explanations of AI infrastruc
 - A declaration that invites individuals and organizations to co-sign the Right to AI  
 - Educational content on how AI affects public space, finance, health, and daily life  
 - Materials for community workshops and participatory research  
-- Opportunities to volunteer, contribute, or stay informed through a mailing list  
+- Opportunities to volunteer, contribute, or stay informed through a mailing list
+- Built-in sitemap and `robots.txt` for better indexing on search engines
 
 
 ## Getting Started

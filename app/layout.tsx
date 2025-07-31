@@ -8,8 +8,16 @@ import Providers from "@/components/Providers";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.therighttoai.org"),
   title: "The Right to AI",
-  description: "AI for All. Voices for AI."
+  description: "AI for All. Voices for AI.",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

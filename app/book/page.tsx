@@ -3,6 +3,8 @@ import Section from '@/components/Section';
 
 export const metadata = {
   title: 'Book – The Right to AI',
+  description: 'Information about the upcoming Right to AI book.',
+  alternates: { canonical: '/book' },
 };
 
 export default function BookPage() {

@@ -3,6 +3,8 @@ import Section from '@/components/Section';
 
 export const metadata = {
   title: 'Poster \u2013 The Right to AI',
+  description: 'Download or view the Right to AI informational poster.',
+  alternates: { canonical: '/poster' },
 };
 
 export default function PosterPage() {

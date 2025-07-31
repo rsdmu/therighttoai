@@ -2,6 +2,8 @@ import Section from '@/components/Section';
 
 export const metadata = {
   title: 'About – The Right to AI',
+  description: 'Learn about the Right to AI organization and how we work with communities.',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {
