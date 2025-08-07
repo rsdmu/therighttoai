@@ -53,9 +53,9 @@ export default function Home() {
           Names for the Right to AI
         </p>
         <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-y-1 text-xs text-gray-400">
+          <span>Allison Cohen</span>
           <span>Rashid Mushkani</span>
           <span>Hugo Berard</span>
-          <span>Allison Cohen</span>
           <span>Shin Koseki</span>
           <span>Khadija Ahmed</span>
           <span>Diego Ramos</span>
