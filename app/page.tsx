@@ -70,6 +70,7 @@ export default function Home() {
           <span>Rahul Sharma</span>
           <span>Alexandra DF</span>
           <span>Dilkhush Kumar</span>
+          <span>Ali Zaan</span>
         </div>
 
       </Section>
