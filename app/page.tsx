@@ -71,6 +71,9 @@ export default function Home() {
           <span>Alexandra DF</span>
           <span>Dilkhush Kumar</span>
           <span>Ali Zaan</span>
+          <span>Maude Gohier-Murray</span>
+          <span>Lena Nehale Ezzine</span>
+          <span>Ahmed Mehdi Inane</span>
         </div>
 
       </Section>
