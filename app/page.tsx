@@ -74,6 +74,7 @@ export default function Home() {
           <span>Maude Gohier-Murray</span>
           <span>Lena Nehale Ezzine</span>
           <span>Ahmed Mehdi Inane</span>
+          <span>Richard Sky</span>
         </div>
 
       </Section>
